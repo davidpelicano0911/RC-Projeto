@@ -1,0 +1,25 @@
+Nov 02 23:36:56.364 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 02 23:36:56.366 HYPERVISOR: Started on IP = localhost, TCP port = 62230.
+Nov 02 23:36:56.848 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 02 23:36:56.850 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\david\GNS3\projects\projetoRC\project-files\dynamips 
+Nov 02 23:36:56.851 GENERAL: working_dir=C:\Users\david\GNS3\projects\projetoRC\project-files\dynamips
+Nov 02 23:36:56.853 HYPERVISOR: exec_cmd: ethsw create Amaz-Sw2 
+Nov 02 23:37:07.152 HYPERVISOR: exec_cmd: nio create_udp udp-259cee04-37b6-4846-b6ed-bbb929e63c9f 20029 127.0.0.1 20028 
+Nov 02 23:37:07.153 HYPERVISOR: exec_cmd: ethsw add_nio Amaz-Sw2 udp-259cee04-37b6-4846-b6ed-bbb929e63c9f 
+Nov 02 23:37:07.162 HYPERVISOR: exec_cmd: ethsw set_access_port Amaz-Sw2 udp-259cee04-37b6-4846-b6ed-bbb929e63c9f 1 
+Nov 02 23:37:07.700 HYPERVISOR: exec_cmd: nio create_udp udp-b5c29052-3131-47b8-9fca-c16bf5ae5bde 20040 127.0.0.1 20041 
+Nov 02 23:37:07.700 HYPERVISOR: exec_cmd: ethsw add_nio Amaz-Sw2 udp-b5c29052-3131-47b8-9fca-c16bf5ae5bde 
+Nov 02 23:37:07.715 HYPERVISOR: exec_cmd: ethsw set_access_port Amaz-Sw2 udp-b5c29052-3131-47b8-9fca-c16bf5ae5bde 1 
+Nov 02 23:37:07.817 HYPERVISOR: exec_cmd: nio create_udp udp-e68f98f4-01c5-43e7-96b4-a453506befaf 20044 127.0.0.1 20045 
+Nov 02 23:37:07.817 HYPERVISOR: exec_cmd: ethsw add_nio Amaz-Sw2 udp-e68f98f4-01c5-43e7-96b4-a453506befaf 
+Nov 02 23:37:07.838 HYPERVISOR: exec_cmd: ethsw set_access_port Amaz-Sw2 udp-e68f98f4-01c5-43e7-96b4-a453506befaf 1 
+Nov 02 23:37:07.972 HYPERVISOR: exec_cmd: nio create_udp udp-d938ce05-6985-44b7-8431-f12eebcfde0e 20046 127.0.0.1 20047 
+Nov 02 23:37:07.973 HYPERVISOR: exec_cmd: ethsw add_nio Amaz-Sw2 udp-d938ce05-6985-44b7-8431-f12eebcfde0e 
+Nov 02 23:37:07.992 HYPERVISOR: exec_cmd: ethsw set_access_port Amaz-Sw2 udp-d938ce05-6985-44b7-8431-f12eebcfde0e 1 
+Nov 02 23:37:08.715 HYPERVISOR: exec_cmd: nio create_udp udp-eac8c610-c2f8-4826-946f-15fa147bf052 20056 127.0.0.1 20057 
+Nov 02 23:37:08.715 HYPERVISOR: exec_cmd: ethsw add_nio Amaz-Sw2 udp-eac8c610-c2f8-4826-946f-15fa147bf052 
+Nov 02 23:37:08.726 HYPERVISOR: exec_cmd: ethsw set_access_port Amaz-Sw2 udp-eac8c610-c2f8-4826-946f-15fa147bf052 1 
+Nov 02 23:38:13.641 HYPERVISOR: exec_cmd: ethsw delete Amaz-Sw2 
+Nov 02 23:38:13.768 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 02 23:38:13.813 HYPERVISOR: Stopped.
+Nov 02 23:38:13.814 GENERAL: reset done.
