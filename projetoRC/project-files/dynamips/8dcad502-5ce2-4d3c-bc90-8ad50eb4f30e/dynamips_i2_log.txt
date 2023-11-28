@@ -1,0 +1,48 @@
+Nov 28 12:26:42.770 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 28 12:26:42.770 HYPERVISOR: Started on IP = localhost, TCP port = 59153.
+Nov 28 12:26:43.225 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 28 12:26:43.225 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\david\Documents\RC-Projeto\projetoRC\project-files\dynamips 
+Nov 28 12:26:43.225 GENERAL: working_dir=C:\Users\david\Documents\RC-Projeto\projetoRC\project-files\dynamips
+Nov 28 12:26:43.225 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\david\Documents\RC-Projeto\projetoRC\project-files\dynamips\8dcad502-5ce2-4d3c-bc90-8ad50eb4f30e 
+Nov 28 12:26:43.232 GENERAL: working_dir=C:\Users\david\Documents\RC-Projeto\projetoRC\project-files\dynamips\8dcad502-5ce2-4d3c-bc90-8ad50eb4f30e
+Nov 28 12:26:43.232 HYPERVISOR: exec_cmd: vm create NEWNET 2 c7200 
+Nov 28 12:26:43.232 VM: VM NEWNET created.
+Nov 28 12:26:43.232 HYPERVISOR: exec_cmd: vm set_con_tcp_port NEWNET 5001 
+Nov 28 12:26:43.232 HYPERVISOR: exec_cmd: c7200 get_mac_addr NEWNET 
+Nov 28 12:26:43.232 HYPERVISOR: exec_cmd: vm get_status NEWNET 
+Nov 28 12:26:43.232 HYPERVISOR: exec_cmd: vm slot_add_binding NEWNET 0 0 C7200-IO-FE 
+Nov 28 12:26:43.240 HYPERVISOR: exec_cmd: vm set_disk0 NEWNET 0 
+Nov 28 12:26:43.240 HYPERVISOR: exec_cmd: vm set_exec_area NEWNET 64 
+Nov 28 12:26:43.240 HYPERVISOR: exec_cmd: vm set_ios NEWNET C:/Users/david/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Nov 28 12:26:43.240 HYPERVISOR: exec_cmd: c7200 set_mac_addr NEWNET ca02.2b58.0000 
+Nov 28 12:26:43.240 HYPERVISOR: exec_cmd: vm set_nvram NEWNET 512 
+Nov 28 12:26:43.240 HYPERVISOR: exec_cmd: vm set_ram NEWNET 512 
+Nov 28 12:26:43.240 HYPERVISOR: exec_cmd: vm get_status NEWNET 
+Nov 28 12:26:43.240 HYPERVISOR: exec_cmd: vm slot_remove_binding NEWNET 0 0 
+Nov 28 12:26:43.240 HYPERVISOR: exec_cmd: vm get_status NEWNET 
+Nov 28 12:26:43.240 HYPERVISOR: exec_cmd: vm slot_add_binding NEWNET 0 0 C7200-IO-GE-E 
+Nov 28 12:26:43.240 HYPERVISOR: exec_cmd: vm get_status NEWNET 
+Nov 28 12:26:43.256 HYPERVISOR: exec_cmd: vm slot_add_binding NEWNET 1 0 PA-2FE-TX 
+Nov 28 12:26:43.256 HYPERVISOR: exec_cmd: vm get_status NEWNET 
+Nov 28 12:26:43.256 HYPERVISOR: exec_cmd: vm slot_add_binding NEWNET 2 0 PA-2FE-TX 
+Nov 28 12:26:54.126 HYPERVISOR: exec_cmd: nio create_udp udp-919bded5-c3bb-4898-b7ed-06da6f23e34e 20004 127.0.0.1 20005 
+Nov 28 12:26:54.410 HYPERVISOR: exec_cmd: vm slot_add_nio_binding NEWNET 1 1 udp-919bded5-c3bb-4898-b7ed-06da6f23e34e 
+Nov 28 12:26:54.410 HYPERVISOR: exec_cmd: vm get_status NEWNET 
+Nov 28 12:26:54.535 HYPERVISOR: exec_cmd: nio create_udp udp-eebcf98e-d63c-4b74-8173-81da28fed456 20008 127.0.0.1 20009 
+Nov 28 12:26:54.544 HYPERVISOR: exec_cmd: vm slot_add_nio_binding NEWNET 2 0 udp-eebcf98e-d63c-4b74-8173-81da28fed456 
+Nov 28 12:26:54.544 HYPERVISOR: exec_cmd: vm get_status NEWNET 
+Nov 28 12:26:58.125 HYPERVISOR: exec_cmd: nio create_udp udp-6db22a63-578e-473d-957f-ca77a756f9ec 20062 127.0.0.1 20063 
+Nov 28 12:26:58.141 HYPERVISOR: exec_cmd: vm slot_add_nio_binding NEWNET 1 0 udp-6db22a63-578e-473d-957f-ca77a756f9ec 
+Nov 28 12:26:58.141 HYPERVISOR: exec_cmd: vm get_status NEWNET 
+Nov 28 12:27:00.109 HYPERVISOR: exec_cmd: nio create_udp udp-f305ac4f-ba33-4213-9932-76253024fa92 20090 127.0.0.1 20091 
+Nov 28 12:27:00.109 HYPERVISOR: exec_cmd: vm slot_add_nio_binding NEWNET 2 1 udp-f305ac4f-ba33-4213-9932-76253024fa92 
+Nov 28 12:27:00.125 HYPERVISOR: exec_cmd: vm get_status NEWNET 
+Nov 28 12:31:14.288 HYPERVISOR: exec_cmd: vm get_status NEWNET 
+Nov 28 12:31:14.292 HYPERVISOR: exec_cmd: vm extract_config NEWNET 
+Nov 28 12:31:15.076 HYPERVISOR: exec_cmd: vm get_status NEWNET 
+Nov 28 12:31:15.081 HYPERVISOR: exec_cmd: vm extract_config NEWNET 
+Nov 28 12:31:15.087 HYPERVISOR: exec_cmd: vm delete NEWNET 
+Nov 28 12:31:15.088 VM: VM NEWNET destroyed.
+Nov 28 12:31:15.094 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 28 12:31:15.172 HYPERVISOR: Stopped.
+Nov 28 12:31:15.172 GENERAL: reset done.

@@ -1,0 +1,45 @@
+Nov 28 12:26:43.429 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 28 12:26:43.429 HYPERVISOR: Started on IP = localhost, TCP port = 59157.
+Nov 28 12:26:43.871 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 28 12:26:43.871 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\david\Documents\RC-Projeto\projetoRC\project-files\dynamips 
+Nov 28 12:26:43.871 GENERAL: working_dir=C:\Users\david\Documents\RC-Projeto\projetoRC\project-files\dynamips
+Nov 28 12:26:43.871 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\david\Documents\RC-Projeto\projetoRC\project-files\dynamips\10e91e4d-4c33-4cd6-9137-f672b66b00e8 
+Nov 28 12:26:43.871 GENERAL: working_dir=C:\Users\david\Documents\RC-Projeto\projetoRC\project-files\dynamips\10e91e4d-4c33-4cd6-9137-f672b66b00e8
+Nov 28 12:26:43.871 HYPERVISOR: exec_cmd: vm create Amazing 3 c7200 
+Nov 28 12:26:43.881 VM: VM Amazing created.
+Nov 28 12:26:43.881 HYPERVISOR: exec_cmd: vm set_con_tcp_port Amazing 5002 
+Nov 28 12:26:43.881 HYPERVISOR: exec_cmd: c7200 get_mac_addr Amazing 
+Nov 28 12:26:43.881 HYPERVISOR: exec_cmd: vm get_status Amazing 
+Nov 28 12:26:43.881 HYPERVISOR: exec_cmd: vm slot_add_binding Amazing 0 0 C7200-IO-FE 
+Nov 28 12:26:43.887 HYPERVISOR: exec_cmd: vm set_disk0 Amazing 0 
+Nov 28 12:26:43.887 HYPERVISOR: exec_cmd: vm set_exec_area Amazing 64 
+Nov 28 12:26:43.887 HYPERVISOR: exec_cmd: vm set_ios Amazing C:/Users/david/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Nov 28 12:26:43.887 HYPERVISOR: exec_cmd: c7200 set_mac_addr Amazing ca03.43c4.0000 
+Nov 28 12:26:43.887 HYPERVISOR: exec_cmd: vm set_nvram Amazing 512 
+Nov 28 12:26:43.887 HYPERVISOR: exec_cmd: vm set_ram Amazing 512 
+Nov 28 12:26:43.887 HYPERVISOR: exec_cmd: vm get_status Amazing 
+Nov 28 12:26:43.887 HYPERVISOR: exec_cmd: vm slot_remove_binding Amazing 0 0 
+Nov 28 12:26:43.903 HYPERVISOR: exec_cmd: vm get_status Amazing 
+Nov 28 12:26:43.903 HYPERVISOR: exec_cmd: vm slot_add_binding Amazing 0 0 C7200-IO-GE-E 
+Nov 28 12:26:43.903 HYPERVISOR: exec_cmd: vm get_status Amazing 
+Nov 28 12:26:43.903 HYPERVISOR: exec_cmd: vm slot_add_binding Amazing 1 0 PA-2FE-TX 
+Nov 28 12:26:43.903 HYPERVISOR: exec_cmd: vm get_status Amazing 
+Nov 28 12:26:43.903 HYPERVISOR: exec_cmd: vm slot_add_binding Amazing 2 0 PA-2FE-TX 
+Nov 28 12:26:53.797 HYPERVISOR: exec_cmd: nio create_udp udp-76f8296d-e6ac-4c11-98c6-fd71243841cd 20002 127.0.0.1 20003 
+Nov 28 12:26:54.098 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Amazing 1 0 udp-76f8296d-e6ac-4c11-98c6-fd71243841cd 
+Nov 28 12:26:54.098 HYPERVISOR: exec_cmd: vm get_status Amazing 
+Nov 28 12:26:54.958 HYPERVISOR: exec_cmd: nio create_udp udp-5556f4f7-4e5a-432b-8314-49c8edd4e7b7 20014 127.0.0.1 20015 
+Nov 28 12:26:54.980 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Amazing 1 1 udp-5556f4f7-4e5a-432b-8314-49c8edd4e7b7 
+Nov 28 12:26:54.980 HYPERVISOR: exec_cmd: vm get_status Amazing 
+Nov 28 12:26:55.417 HYPERVISOR: exec_cmd: nio create_udp udp-2404df48-b251-49fa-b573-fec6f74ba7aa 20020 127.0.0.1 20021 
+Nov 28 12:26:55.417 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Amazing 2 0 udp-2404df48-b251-49fa-b573-fec6f74ba7aa 
+Nov 28 12:26:55.429 HYPERVISOR: exec_cmd: vm get_status Amazing 
+Nov 28 12:31:14.290 HYPERVISOR: exec_cmd: vm get_status Amazing 
+Nov 28 12:31:14.293 HYPERVISOR: exec_cmd: vm extract_config Amazing 
+Nov 28 12:31:15.070 HYPERVISOR: exec_cmd: vm get_status Amazing 
+Nov 28 12:31:15.074 HYPERVISOR: exec_cmd: vm extract_config Amazing 
+Nov 28 12:31:15.080 HYPERVISOR: exec_cmd: vm delete Amazing 
+Nov 28 12:31:15.081 VM: VM Amazing destroyed.
+Nov 28 12:31:15.086 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 28 12:31:15.392 HYPERVISOR: Stopped.
+Nov 28 12:31:15.393 GENERAL: reset done.
